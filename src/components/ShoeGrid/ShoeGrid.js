@@ -14,6 +14,10 @@ const ShoeGrid = () => {
   );
 };
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: grid;
+  grid: auto / auto auto auto;
+  gap: 32px;
+`;
 
 export default ShoeGrid;
